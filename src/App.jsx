@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Movies from './components/Movies';
 import Banner from './components/Banner';
 import WatchList from './components/WatchList';
-import {BrowserRouter, Routes, Route} from 'react-router'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 function App() {
   let [watchlist, setWatchlist] = useState([])
